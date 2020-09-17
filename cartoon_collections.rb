@@ -12,7 +12,7 @@ def long_planeteer_calls(array)
   elements = []
     
   array.collect do |element|
-    element.capitalize << elements_exclaimation
+    element.capitalize << elements
   end
   elements_exclaimation = elements.join("!, ")
   elements_exclaimation.split(",")
