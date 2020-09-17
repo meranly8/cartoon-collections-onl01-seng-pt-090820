@@ -8,6 +8,7 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |element|
     "#{element.upcase}!"
   end
+  planeteer_calls
 end
 
 def long_planeteer_calls(array)
