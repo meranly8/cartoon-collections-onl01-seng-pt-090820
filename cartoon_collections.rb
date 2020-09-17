@@ -4,11 +4,7 @@ def roll_call_dwarves(names)
   end
 end
 
-def summon_captain_planet()
-  
-end
-
-def long_planeteer_calls(array)
+def summon_captain_planet(array)
   elements = []
     
   array.collect do |element|
@@ -16,6 +12,10 @@ def long_planeteer_calls(array)
     elements_exclaimation = elements.join("!, ")
   end
   elements_exclaimation.split(",")
+end
+
+def long_planeteer_calls(array)
+  
 end
 
 def find_the_cheese()
