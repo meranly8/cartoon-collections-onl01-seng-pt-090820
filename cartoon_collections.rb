@@ -13,8 +13,8 @@ def long_planeteer_calls(array)
     
   array.collect do |element|
     element.capitalize << elements
+    elements_exclaimation = elements.join("!, ")
   end
-  elements_exclaimation = elements.join("!, ")
   elements_exclaimation.split(",")
 end
 
