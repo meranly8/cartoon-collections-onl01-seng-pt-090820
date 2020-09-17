@@ -4,10 +4,9 @@ def roll_call_dwarves(names)
   end
 end
 
-def summon_captain_planet(array)
-  array.collect do |element|
-    element.upcase
-    "#{new_element}!"
+def summon_captain_planet(planeteer_calls)
+  planeteer_calls.collect do |element|
+    "#{element.upcase}!"
   end
 end
 
