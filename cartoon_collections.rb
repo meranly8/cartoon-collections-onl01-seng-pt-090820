@@ -9,9 +9,9 @@ def summon_captain_planet(array)
     
   array.collect do |element|
     element.capitalize << elements
-    elements_exclaimation = elements.join("!, ")
   end
-  elements_exclaimation.split(",")
+  elements_exclaimation = elements.join("!, ")
+  final_elements = elements_exclaimation.split(",")
 end
 
 def long_planeteer_calls(array)
