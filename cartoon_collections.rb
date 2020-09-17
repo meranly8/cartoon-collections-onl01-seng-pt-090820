@@ -5,11 +5,9 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(array)
-  elements = []
-    
   array.collect do |element|
-    new_element = element.capitalize
-    elements << "#{new_element}!"
+    new_element = element.upcase
+    "#{new_element}!"
   end
 end
 
