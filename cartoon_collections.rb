@@ -8,8 +8,14 @@ def summon_captain_planet()
   
 end
 
-def long_planeteer_calls()
-  
+def long_planeteer_calls(array)
+  elements = []
+    
+  array.collect do |element|
+    element.capitalize << elements_exclaimation
+  end
+  elements_exclaimation = elements.join("!, ")
+  elements_exclaimation.split(",")
 end
 
 def find_the_cheese()
